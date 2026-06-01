@@ -54,7 +54,7 @@
 
 /* Smooth scroll */
 :root {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
 
 /*--------------------------------------------------------------
@@ -137,6 +137,10 @@ h6 {
   100% {
     transform: rotate(360deg);
   }
+}
+
+figcaption {
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
